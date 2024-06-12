@@ -1,0 +1,115 @@
+/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+/* Tailwind CSS classes */
+.navbar {
+    @apply flex items-center justify-between flex-wrap bg-navBarColor p-6;
+
+    /* box-shadow: inset 4px 4px 8px #acb2bd, inset -8px -8px 8px #c0c8d4; */
+}
+
+.navbar-logo {
+    @apply flex items-center flex-shrink-0 text-white mr-6;
+}
+
+.navbar-logo img {
+    @apply h-16 w-12 mr-2;
+}
+
+.navbar-links {
+    @apply text-lg lg:flex-grow lg:flex lg:space-x-8;
+}
+
+.navbar-link {
+    @apply block mt-4 lg:mt-0 text-black hover:text-customPurple transition-colors duration-300;
+}
+
+.navbar-contact {
+    @apply text-black mt-4 lg:mt-0;
+    font-size: 25px;
+    /* Adjust font size as needed */
+    font-weight: 700;
+    /* Adjust font weight as needed */
+}
+
+/* Custom font family application */
+.navbar-link {
+    font-family: 'Eczar', serif;
+    position: relative;
+}
+
+/* .navbar-logo {
+    font-family: 'Oswald', sans-serif;
+} */
+
+.navbar-contact {
+    font-family: 'Eczar',
+        serif;
+}
+
+/* navigationBar.css */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    z-index: 10;
+    @apply bg-navBarColor rounded-lg shadow-lg mt-2;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar-link:focus+.dropdown-menu,
+.dropdown-menu:focus-within {
+    display: block;
+}
+
+
+
+.navbar-dropdown {
+    font-family: 'Eczar', serif;
+    display: block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 200px;
+    /* Adjust the width as needed */
+}
+
+.navbar-dropdown:hover {
+    background-color: #f0f0f0;
+}
+
+/* src/style/navigationBar.css */
+
+/* .dropdown-menu {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+} */
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.block.lg\:hidden button {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.block.lg\:hidden button.clicked {
+    transform: rotate(90deg);
+}
+
+.navbar-links {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.navbar-links.hidden {
+    opacity: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+@keyframes cardEntrance {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animate-cardEntrance {
+    animation: cardEntrance 0.8s ease-out;
+}
+
+
+.description {
+    font-family: 'Eczar', serif;
+}

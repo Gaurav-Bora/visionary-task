@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+
+
+.textEffect {
+    font-family: 'Eczar', serif;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}

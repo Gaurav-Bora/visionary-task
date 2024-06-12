@@ -1,0 +1,22 @@
+/* AddressMap.css */
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+.fonting {
+    font-family: 'Eczar', serif;
+}
+
+.address-map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust height as needed */
+}
+
+.address-details {
+    /* Add styles for address details */
+}
+
+.google-map {
+    /* Add styles for Google Maps */
+}

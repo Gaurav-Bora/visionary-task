@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "id":1,
+      "name": "Umama Khan",
+      "location": "Pune",
+      "grade": "10",
+      "gender": "M",
+      "review": "Assalamualaikum, my name is Umama khan from grade 10, and I am studying in this school since 8 years. I have really learnt a lot in these many years.Span was a great experience for me! All teachers and staff are very kind, helpful and friendly and mainly, the studies here are a high point! The time when I came in this school was little difficult to manage things because I hardly knew the basic English and I wasn't a bright student in academics ,but later gradually I learnt speaking English confidently and all the time my class teacher and principal ma'am taught me where I was wrong and I improved in my studies considerably. Overall Span school is one of the best school I have ever attended."
+    },
+    {
+      "id":2,
+      "name": "Dilawar",
+      "location": "Pune",
+      "grade": "9",
+      "gender": "M",
+      "review": "My name is Dilawar Parkar and I have been studying in this school since grade 3 and now I am in grade 9!!! I found it so easy to make new friends when I first came to Span International Academy, students and teachers both made me feel so welcome. I have learned valuable leadership skills while learning at my own pace. Span International Academy integrates compassion into its teaching standards, emphasizes the importance of values, and builds leaders through each of its classes and lessons. When I arrived at SIA, my English ability was extremely limited. I found it very difficult to understand what was going on in lessons. However, with English lessons and encouragement from both teachers and other students, I persevered and saw dramatic improvements. Though it was a small school, now turned into a huge campus, it allows the student-to-teacher ratio, giving us more confidence when asking questions, engaging in group activities, and opportunities for one-on-one time with the teachers. The teachers are constantly encouraging me to do my best. It is great knowing that they are there to help me reach my full potential. Our teachers are passionate about seeing their students succeed; they are so great about sharing moments of pride they see within us. A school with a Good Islamic education and a challenging IGCSE curriculum! GREAT TEAM - GREAT SCHOOL!!"
+    },
+    {
+      "id":3,
+      "name": "Mrs. Nazama Daruwala Parent of Zainab Mubin Daruwala",
+      "location": "Pune",
+      "grade": "4",
+      "gender": "F",
+      "review": "As a parent and an educator myself, I have found my child from nursery till 4th grade been given the best tool to be a beneficial reflective learners. Students here are immersed in a strong academic program for math, science, language, social studies and arts along with Islamic studies and Hifz. It has the best combination of academics and ethics. The campus with its new IG standard Infrastructure and an affordable fee has provided my child the most amazing experience. I Thank the management for setting high expectations for our children. As a Principal, you have shaped the conditions for our teachers and students to learn and succeed. We are forever grateful for your impact on this school, keep up the great work!"
+    },
+    {
+      "id":4,
+      "name": "Yusra Shaikh",
+      "location": "Pune",
+      "grade": "10",
+      "gender": "F",
+      "review": "Assalamualaikum, I'm Yusra Shaikh from grade 10. I have been a part of Span International Academy for 10 years and it has indeed been a delightful experience. The teachers put in all their efforts to simplify the syllabus and pay close attention to each student, so they can help the weak ones. The teaching includes fun activities with practical learning for the better understanding of the topic. Moreover, the school makes sure to show the Islamic perspective of worldly affairs to make the students confident enough to stand up for their rights."
+    },
+    {
+      "id":5,
+      "name": "Mrs. Zara Maksud Shaikh Parent of Saad & Ayesha Maksud Shaikh",
+      "location": "Pune",
+      "grade": "",
+      "gender": "F",
+      "review": "Assalamunalaikum, I'm the mother of Saad maksud shaikh & Ayesha maksud shaikh. My son completed his 10th in 2020 from Span international academy and my daughter completed her 8th standard. I'm proud to be a part of this esteemed institution. SIA has made a great and positive impact on both children. Both of my children are now studying in East Africa, with IGCSE curriculum in SIA it helped my children a lot. SIA endeavours to instill a sense of self-discipline in the students. The school has excellent staff and environment, this school indeed makes every student strong and ensures that each student is able to get the knowledge of DEEN with Duniya."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.home-page {
+
+    position: relative;
+    @apply bg-fullScreenBg;
+
+}
